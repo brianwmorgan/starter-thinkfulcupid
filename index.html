@@ -26,68 +26,46 @@
           <li><a href="#join">Join</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#download">Download</a></li>
-          <li><a href="blog">Blog</a></li>
+          <li><a href="#blog">Blog</a></li>
         </ul>
       </nav>
-    </div>
+      </div>
     </header>
 
     <main>
       <!-- Join -->
-      <section id="join" class="group">
-        <div class="item-double">
-          <img src="images/love.png" alt="ThinkfulCupid - love" />
-        </div>
+      <section class="group" id="join">
+				<div class="item-double">
+					<img src="images/love.png" alt="ThinkfulCupid - love" > 
+				</div>
         <!-- Add join form here -->
-        <div>
-          <h3>Find your perfect match</h3>
-          <form>
-            <div>
+        <div class="item">
+          <h2>Find your perfect match</h2>
+          <form id="form">
+            <div class="fill">
               <label for="email">Email</label>
-              <input
-                id="email"
-                type="email"
-                name="email"
-                autofocus="on"
-                placeholder="email@example.com"
-                required
-              />
+              <input type="email" name="email" id="email" required placeholder="email@example.com"/>
             </div>
-            <div>
+            <div class="fill">
               <label for="password">Create a password</label>
-              <input
-                id="password"
-                type="password"
-                name="password"
-                minlength="8"
-                required
-              />
+              <input type="password" name="password" id="password" required />
             </div>
-              <div>
-              <label for="username">Username</label>
-              <input
-                id="username"
-                type="text"
-                name="username"
-                minlength="8"
-                required
-              />
+            <div class="fill">
+              <label for="name">Username</label>
+              <input type="text" name="text" id="text" required />
             </div>
-            <div>
-              <label for="gender">I am ...</label>
-              <select name ="gender" id="gender" size="1">
+            <div class="fill">
+              <label for="gender">I am...</label>
+              <select name="gender" id="gender">
                 <option value="female">Female</option>
                 <option value="male">Male</option>
-                <option value="transgender">Transgender</option>
-                <option value="non-binary">Non-Binary</option>
+                <option value="non-binary">Non-Binary/Gender Fluid</option>
               </select>
             </div>
-            <div>
-              <button type="submit">Join</button>
-            </div>
+            <button type="submit">Join</button>
           </form>
         </div>
-        </form>
+
       </section>
 
       <!-- About -->
