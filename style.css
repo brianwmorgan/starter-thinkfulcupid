@@ -90,7 +90,7 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
-ul#menu{
+ul#menu {
   padding: 0;
 }
 
@@ -151,9 +151,9 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width: 480px) {
- header{
-   padding: 0 20px 0 0px;
- }
+  header {
+    padding: 0 20px 0 0px;
+  }
   header .group {
     display: flex;
     justify-content: space-between;
@@ -182,6 +182,4 @@ footer p {
     display: flex;
     width: 100%;
   }
-
-
 }
